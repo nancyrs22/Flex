@@ -1,0 +1,23 @@
+div{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+}
+
+.contenedor{
+    width: 1200px;
+    height: 300px;
+    display: flex;
+   /* align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;*/
+}
+
+.s1, .s3{
+   /* width: 300px;*/
+    flex: 1;
+}
+
+.s2{
+    flex: 2;
+}
